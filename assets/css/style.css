@@ -184,10 +184,32 @@ p{
     
 }
 
-#tabela-nutricao{
-    margin-top: 20px;
+table{
+    margin-top: 15px;
+    width: 100%;
+    border-collapse: collapse;
+   
+}
+
+td{
+    border-bottom:  hsl(330, 100%, 98%) solid 3px;
+    padding: 15px;
+    font-family: 'outfit', sans-serif;
+    font-weight: 500;
+
     
 }
+
+tr:last-child td{
+    border-bottom: none;
+}
+
+tr td:nth-child(2){
+    font-weight: 800;
+    color: hsl(14, 45%, 36%);
+
+}
+
 
 
 /* mudando cores dos marcadores das listas */
@@ -206,4 +228,14 @@ p{
     color: hsl(14, 45%, 36%);
     font-weight: 750;
  
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    font-family: 'outfit', sans-serif;
+    font-weight: 500;
+    padding-bottom: 13px;
+    padding-right: 10px;
+
 }
