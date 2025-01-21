@@ -276,11 +276,14 @@ tr td:nth-child(2){
        margin-bottom: 30px;
        
     }
+    footer{
+        display: flex;
+        justify-content: center;
+    }
 
     .footer{
-        display: inline;
         font-family: 'outfit', sans-serif;
-        font-weight: 500;
+        font-weight: 600;
         font-size: 13px;
         margin: 0;
         
